@@ -243,7 +243,7 @@ void Startzaehler_Status(void)
   if (startzaehler_aktiv == 0)
   {
     lcd.setCursor(0, 0);
-    lcd.print("  Startzaehler:");
+    lcd.print("Startzaehler:");
     lcd.setCursor(5, 1);
     lcd.print("aktiv");
   }
